@@ -1,0 +1,118 @@
+NOME: Guilherme Vieira de Castro
+NMEC: 131894
+
+1.
+pwd
+cd C:\Users\castr\OneDrive\Documentos\GitHub
+git init
+git clone https://github.com/Castro13GD/1LI2025-Teste03.git
+
+2.
+cd C:\Users\castr\OneDrive\Documentos\GitHub\1LI2025-Teste03
+mkdir A131894
+cd C:\Users\castr\OneDrive\Documentos\GitHub\1LI2025-Teste03\A131894
+touch "README.md.txt"
+echo "Teste de LI 2025/2026" >> README.md.txt
+cd..
+git add A131894/README.md.txt
+git commit -m "2ª tarefa concluída"
+git push origin main
+
+3.
+pwd
+cd C:\Users\castr\OneDrive\Documentos
+git clone https://github.com/Castro13GD/1LI2025-Teste03.git
+touch "index.html"
+git add .
+git commit -m "3ª tarefa concluída"
+git push origin main
+(Dentro da tag <head>)
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+(Antes da tag </body>)
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+4.
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lab Info</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      
+      <a class="navbar-brand" href="index.html">Lab Info</a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="disciplina.html">A disciplina</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-4">
+    <h1>Lab Info</h1>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+git add .
+git commit -m "4ª tarefa"
+git push
+
+5.
+git pull origin main
+cp index.html disciplinas.html
+git add disciplinas.html
+git commit -m "Criado ficheiro disciplinas.html a partir do ficheiro index.html"
+git push origin main
+
+=======================================
+
+git pull origin main
+history > meusComandosAzure.txt
+cat meusComandosAzure.txt
+
+====
+1 cd C:\Users\castr\OneDrive\Documentos\GitHub\1LI2025-Teste03
+2 git pull origin main
+3 cat meusComandosAzure.txt...
+4 git pull origin main
+
+git add . && git commit -m "history azure" && git push origin main
+
+-------------------------------------------------
+
+git pull origin main
+history > meusComandosLOCAIS.txt
+cat meusComandosLOCAIS.txt
+
+1 cd C:\Users\castr\OneDrive\Documentos\GitHub\1LI2025-Teste03
+2 git pull origin main
+3 cat meusComandosAzure.txt...
+4 git pull origin main
+5 history > meusComandosAzure.txt
+6 cat meusComandosAzure.txt
+7 git add . && git commit -m "history azure" && git push origin main
+8 git pull origin main
+
+// Teste realizado com o terminal do PC devido a problemas com o Microsoft Azure //
